@@ -9,4 +9,20 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  --
+
+------------ COLORSCHEMES ------------
+  { "ellisonleao/gruvbox.nvim",
+    priority = 1000,
+    config = function()
+       require("gruvbox").setup()
+    end,
+    },
+
+  { "rebelot/kanagawa.nvim",
+    config = function()
+      require("kanagawa").setup()
+    end,
+  },
 }
+
